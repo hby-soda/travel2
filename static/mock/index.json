@@ -1,0 +1,96 @@
+{
+  "ret": true,
+  "data": {
+    "city": "北京",
+    "swiperList": [{
+      "id": "0001",
+      "imgUrl": "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20192/9f73976e40c4ef845cabe0efc0269ebb.jpg_750x200_aab92b7a.jpg"
+    }, {
+      "id": "0002",
+      "imgUrl": "http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20192/c64e6f7308f67f0862adb64b9d9fcff0.jpg_750x200_37c4c320.jpg"
+    }],
+    "iconList": [{
+      "id": "0001",
+      "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/95/f3dd6c383aeb3b02.png",
+      "desc": "景点门票"
+    }, {
+      "id": "0002",
+      "imgUrl": "http://img1.qunarzz.com/piao/fusion/1804/5a/13ceb38dcf262f02.png",
+      "desc": "一日游"
+    }, {
+      "id": "0003",
+      "imgUrl": "http://img1.qunarzz.com/piao/fusion/1804/ff/fdf170ee89594b02.png",
+      "desc": "北京必游"
+    }, {
+      "id": "0004",
+      "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/47/c2b659e048b11602.png",
+      "desc": "溜娃儿"
+    }, {
+      "id": "0005",
+      "imgUrl":"http://mp-piao-admincp.qunarzz.com/mp_piao_admin_mp_piao_admin/admin/20191/0334cf5430b9b5505fd79e2b8d7e8670.png",
+      "desc": "爬长城"
+    }, {
+      "id": "0006",
+      "imgUrl":"http://img1.qunarzz.com/piao/fusion/1803/6c/9e54a8540fee0102.png",
+      "desc":"故宫"
+    }, {
+      "id": "0007",
+      "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/e3/67df61427c8e1302.png",
+      "desc": "相声茶馆"
+    }, {
+      "id": "0008",
+      "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/fc/b10a6b2e4f0fe102.png",
+      "desc": "北京滑雪"
+    }, {
+      "id": "0009",
+      "imgUrl": "http://img1.qunarzz.com/piao/fusion/1803/ab/6f7d6e44963c9302.png",
+      "desc": "泡温泉"
+    }, {
+      "id": "0010",
+      "imgUrl":"http://img1.qunarzz.com/piao/fusion/1803/76/eb88861d78fb9902.png",
+      "desc": "动植物园"
+    }],
+    "recommendList": [{
+      "id": "0001",
+      "imgUrl": "http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_200x200_1bc99086.jpg",
+      "title": "故宫",
+      "desc": "故宫（AAAAA景区）故宫（AAAAA景区）故宫（AAAAA景区）故宫（AAAAA景区）"
+      }, {
+      "id": "0002",
+      "imgUrl": "http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_200x200_1bc99086.jpg",
+      "title": "故宫",
+      "desc": "故宫（AAAAA景区）故宫（AAAAA景区）故宫（AAAAA景区）故宫（AAAAA景区）"
+    }, {
+      "id": "0003",
+      "imgUrl": "http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_200x200_1bc99086.jpg",
+      "title": "故宫",
+      "desc": "故宫（AAAAA景区）故宫（AAAAA景区）故宫（AAAAA景区）故宫（AAAAA景区）"
+    }, {
+      "id": "0004",
+      "imgUrl": "http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_200x200_1bc99086.jpg",
+      "title": "故宫",
+      "desc": "故宫（AAAAA景区）故宫（AAAAA景区）故宫（AAAAA景区）故宫（AAAAA景区）"
+    }],
+    "weekendList": [{
+      "id": "0001",
+      "imgUrl": "http://img1.qunarzz.com/sight/source/1811/f3/86173f863bef61.jpg_r_640x214_52b003ac.jpg",
+      "title": "京城周末撒欢",
+      "desc": "在帝都过周末，不仅仅是城中游！"
+    }, {
+      "id": "0002",
+      "imgUrl": "http://img1.qunarzz.com/sight/source/1811/f3/86173f863bef61.jpg_r_640x214_52b003ac.jpg",
+      "title": "京城周末撒欢",
+      "desc": "在帝都过周末，不仅仅是城中游！"
+    }, {
+      "id": "0003",
+      "imgUrl": "http://img1.qunarzz.com/sight/source/1811/f3/86173f863bef61.jpg_r_640x214_52b003ac.jpg",
+      "title": "京城周末撒欢",
+      "desc": "在帝都过周末，不仅仅是城中游！"
+    }, {
+      "id": "0004",
+      "imgUrl": "http://img1.qunarzz.com/sight/source/1811/f3/86173f863bef61.jpg_r_640x214_52b003ac.jpg",
+      "title": "京城周末撒欢",
+      "desc": "在帝都过周末，不仅仅是城中游！"
+    }]
+  }
+}
