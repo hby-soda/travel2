@@ -90,32 +90,34 @@ export default {
     padding-bottom 50%
   .icons >>> .swiper-pagination-bullet-active
     background $bgColor
-  .icon
-    position relative
-    overflow hidden
-    float left
-    height 0
-    width 25%
-    padding-bottom 25%
-    .icon-img
-      position absolute
-      top 0
-      right 0
-      left 0
-      bottom .44rem
-      box-sizing border-box
-      padding .1rem
-      .icon-img-content
-        display block
-        margin 0 auto
-        height 100%
-    .icon-desc
-      position absolute
-      right 0
-      left 0
-      bottom 0
-      height .44rem
-      text-align center
-      color $darkTextColor
-      ellipsis()
+  .icons
+    margin-top .1rem
+    .icon
+      position relative
+      overflow hidden
+      float left
+      height 0
+      width 25%
+      padding-bottom 25%
+      .icon-img
+        position absolute
+        top 0
+        right 0
+        left 0
+        bottom .44rem
+        box-sizing border-box
+        padding .1rem
+        .icon-img-content
+          display block
+          margin 0 auto
+          height 100%
+      .icon-desc
+        position absolute
+        right 0
+        left 0
+        bottom 0
+        height .44rem
+        text-align center
+        color $darkTextColor
+        ellipsis()
 </style>
