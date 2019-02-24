@@ -1,28 +1,40 @@
 <template>
   <div>
     <div class="banner" @click="handleBannerClick">
-      <img class="banner-img" src="//img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_600x330_f922b488.jpg"/>
+      <img class="banner-img" :src="img"/>
       <div class="banner-info">
-        <div class="banner-title">故宫(AAAAA景区)</div>
+        <div class="banner-title">{{title}}</div>
         <div class="banner-number">
           <span class="iconfont banner-icon">&#xe626;</span>
-          8
+          {{number}}
         </div>
       </div>
     </div>
-    <common-garray :imgs="imgs" v-show="showGarray" @close="handelGarrayClose"></common-garray>
+    <fade-animation>
+      <common-garray :imgs="imgs" v-show="showGarray" @close="handelGarrayClose"></common-garray>
+    </fade-animation>
   </div>
 </template>
 
 <script>
 import CommonGarray from 'common/gallary/Garray'
+import FadeAnimation from 'common/fade/FadeAnimation'
 export default {
   name: 'DetailBanner',
-  components: {CommonGarray},
+  components: {FadeAnimation, CommonGarray},
+  props: {
+    title: String,
+    img: String,
+    imgs: Array
+  },
   data () {
     return {
-      showGarray: false,
-      imgs: ['http://img1.qunarzz.com/sight/p0/1901/ea/ea459039354370daa3.img.jpg_200x200_8c51fc3d.jpg', 'http://img1.qunarzz.com/sight/p0/1508/89/895a1b7add84f23faca053ce9e3153db.water.jpg_200x200_99ae30ee.jpg']
+      showGarray: false
+    }
+  },
+  computed: {
+    number () {
+      return this.imgs.length
     }
   },
   methods: {
