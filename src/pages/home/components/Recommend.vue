@@ -2,14 +2,20 @@
     <div>
       <div class="title">热销推荐</div>
       <ul>
-        <li class="item border-bottom" v-for="item of recommendList" :key="item.id">
+        <router-link
+          tag="li"
+          class="item border-bottom"
+          v-for="item of recommendList"
+          :key="item.id"
+          :to="'/detail/' + item.id"
+        >
           <img class="item-img" :src="item.imgUrl"/>
           <div class="item-info">
             <p class="item-title">{{item.title}}</p>
             <p class="item-desc">{{item.desc}}</p>
             <button class="item-button">查看详情</button>
           </div>
-        </li>
+        </router-link>
       </ul>
     </div>
 </template>
@@ -17,45 +23,8 @@
 <script>
 export default {
   name: 'HomeRecommend',
-  data () {
-    return {
-      recommendList: [{
-        id: '0001',
-        imgUrl: 'http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_200x200_1bc99086.jpg',
-        title: '故宫',
-        desc: '故宫（AAAAA景区）故宫（AAAAA景区）故宫（AAAAA景区）故宫（AAAAA景区）'
-      }, {
-        id: '0002',
-        imgUrl: 'http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_200x200_1bc99086.jpg',
-        title: '故宫',
-        desc: '故宫（AAAAA景区）故宫（AAAAA景区）故宫（AAAAA景区）故宫（AAAAA景区）'
-      }, {
-        id: '0003',
-        imgUrl: 'http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_200x200_1bc99086.jpg',
-        title: '故宫',
-        desc: '故宫（AAAAA景区）故宫（AAAAA景区）故宫（AAAAA景区）故宫（AAAAA景区）'
-      }, {
-        id: '0004',
-        imgUrl: 'http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_200x200_1bc99086.jpg',
-        title: '故宫',
-        desc: '故宫（AAAAA景区）故宫（AAAAA景区）故宫（AAAAA景区）故宫（AAAAA景区）'
-      }, {
-        id: '0005',
-        imgUrl: 'http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_200x200_1bc99086.jpg',
-        title: '故宫',
-        desc: '故宫（AAAAA景区）故宫（AAAAA景区）故宫（AAAAA景区）故宫（AAAAA景区）'
-      }, {
-        id: '0006',
-        imgUrl: 'http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_200x200_1bc99086.jpg',
-        title: '故宫',
-        desc: '故宫（AAAAA景区）故宫（AAAAA景区）故宫（AAAAA景区）故宫（AAAAA景区）'
-      }, {
-        id: '0007',
-        imgUrl: 'http://img1.qunarzz.com/sight/p0/1409/19/adca619faaab0898245dc4ec482b5722.jpg_200x200_1bc99086.jpg',
-        title: '故宫',
-        desc: '故宫（AAAAA景区）故宫（AAAAA景区）故宫（AAAAA景区）故宫（AAAAA景区）'
-      }]
-    }
+  props: {
+    recommendList: Array
   }
 }
 </script>
